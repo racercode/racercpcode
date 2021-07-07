@@ -1,1 +1,4 @@
-# racercpcode
+# 自主學習紀錄
+## 可以參考github從建立以來的版本紀錄
+## 紀錄了從我的學習過程
+## 網站的位址在於 [這裡](https://racercpcode.tk/)
