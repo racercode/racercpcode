@@ -34,3 +34,9 @@ function redirect(a) {
     else if(a==8) window.location.href=`https://www.facebook.com/profile.php?id=100008453702626`;
     else if(a==9) window.location.href=`https://forms.gle/eFBd5bsJqCFvNJwj6`;
 }
+var arr=new Array(100);
+for(var i=0;i<100;i++) arr[i]=0;
+function open1(a){
+    if(arr[a]==0) {arr[a]=1;document.getElementsByClassName('beopen')[a].style.display="block",document.getElementsByClassName('cli')[a].innerHTML="點我關閉";}
+    else {document.getElementsByClassName('beopen')[a].style.display="none",document.getElementsByClassName('cli')[a].innerHTML="提示",arr[a]=0;}
+}  
