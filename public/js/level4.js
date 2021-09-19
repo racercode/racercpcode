@@ -36,7 +36,7 @@ function redirect(a) {
 }
 var arr=new Array(100);
 for(var i=0;i<100;i++) arr[i]=0;
-var n=4;
+var n=5;
 function open1(a){
     if(arr[a]==0) {arr[a]=1;document.getElementsByClassName('beopen')[n-a-1].style.display="block",document.getElementsByClassName('cli')[n-a-1].innerHTML="點我關閉";}
     else {document.getElementsByClassName('beopen')[n-a-1].style.display="none",document.getElementsByClassName('cli')[n-a-1].innerHTML="提示",arr[a]=0;}
